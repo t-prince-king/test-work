@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Contact Manager</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 2rem;
+      max-width: 600px;
+      margin: auto;
+      background-color: #f4f4f4;
+    }
+    h2 {
+      text-align: center;
+    }
+    form input {
+      display: block;
+      width: 100%;
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+      font-size: 1rem;
+    }
+    button {
+      padding: 0.5rem 1rem;
+      margin-right: 0.5rem;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    .contact {
+      background: #fff;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Simple Contact Manager</h2>
+
+  <form id="contactForm">
+    <input type="text" id="name" placeholder="Name" required />
+    <input type="email" id="email" placeholder="Email" required />
+    <input type="tel" id="phone" placeholder="Phone" required />
+    <button type="submit">Add Contact</button>
+  </form>
+
+  <h3>Contacts</h3>
+  <div id="contactList"></div>
+  <script src="script.js">
+
+
+
+
